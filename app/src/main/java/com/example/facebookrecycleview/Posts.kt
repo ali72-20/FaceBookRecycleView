@@ -3,7 +3,7 @@ package com.example.facebookrecycleview
 data class Posts(
     var userName : String = "Unblast",
     var time : String = "2 hrs.",
-    var postContent :String = "Buckle up, because change is coming to WordPress\\nhttp://unblast.com/color-schemes",
+    var postContent :String = "Buckle up, because change is coming to WordPress\nhttp://unblast.com/color-schemes",
     var like : String = "Like",
     var comment : String = "Comment",
     var share : String = "Share",
