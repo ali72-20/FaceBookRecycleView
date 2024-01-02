@@ -33,7 +33,7 @@ class PostRecycleAdapter(val items:List<Posts>) : RecyclerView.Adapter<PostRecyc
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val itemView :View = LayoutInflater.from(parent.context)
-            .inflate(R.layout.activity_main,parent,false)
+            .inflate(R.layout.post_item,parent,false)
         return ViewHolder(itemView)
     }
 
